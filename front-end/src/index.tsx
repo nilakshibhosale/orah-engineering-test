@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import "index.css"
 import StaffApp from "staff-app/app"
 import { GlobalStyle } from "shared/styles/global-style"
-
+import "semantic-ui-css/semantic.min.css"
 const Home: React.FC = () => {
   return (
     <div className="app">
